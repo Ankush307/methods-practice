@@ -17,7 +17,10 @@ const PrimaryInput = () => {
         setEmail("");
     };
 
-    const tableData = formData.filter((item) => item.firstName.includes(searchQuery) || item.lastName.includes(searchQuery) || item.email.includes(searchQuery));
+    const tableData = formData.filter((item) =>
+        item.firstName.includes(searchQuery) ||
+        item.lastName.includes(searchQuery) ||
+        item.email.includes(searchQuery));
     const tableResult = tableData.length === 0
 
     return (
