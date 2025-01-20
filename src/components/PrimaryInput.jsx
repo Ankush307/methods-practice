@@ -36,7 +36,7 @@ const PrimaryInput = () => {
             <div className="mt-8 w-full max-w-[600px] mx-auto px-5">
                 <h2 className="text-xl text-gray-800 font-semibold mb-4 text-center">User result</h2>
                 <div className="m-y-4 overflow-auto">
-                    <div className="border border-gray-300 w-[720px]">
+                    <div className="border border-gray-300 w-[550px] mx-auto">
                         <div className="flex items-center justify-center w-full px-6 ">
                             <p className="py-3 w-1/3 text-center">First name</p>
                             <p className="py-3 w-1/3 text-center border-x border-gray-300">Last name</p>
